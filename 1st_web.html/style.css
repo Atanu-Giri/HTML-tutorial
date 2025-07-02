@@ -1,12 +1,36 @@
-.heading 
-{
-color: red;
+
+h1{
+    text-align:center;
+
+}
+div{
+    display:inline-block;
+    height:100px;
+    width:100px;
+    border:2px solid;
+    text-align:center;
+
+
 }
 
-#box
-{
-background-color: blue;
+#container{
+   display:flex;
+   height:200px;
+   width:800px;
+    
 }
-button {
-    background-color: green;
+#box1{
+    background-color: aquamarine;
+}
+#box2{
+    background-color: chartreuse;
+}
+#box3{
+    background-color: chocolate;
+}
+#box4{
+    background-color:cyan;
+}
+#box5{
+    background-color:darkorange;
 }
